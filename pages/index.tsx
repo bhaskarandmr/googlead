@@ -6,33 +6,7 @@ function Home() {
     <Page>
       <section className="flex flex-col gap-6">
         <Text variant="h1">Loading Ads with the Script Component</Text>
-        <Text>
-          Ads on web pages are typically loaded from script tags, but without
-          the proper attributes this can easily introduce a delay before a page
-          becomes interactive. This is where the{' '}
-          <Link
-            href="https://nextjs.org/docs/api-reference/next/script"
-            target="_blank"
-          >
-            Next.js Script Component
-          </Link>{' '}
-          comes into play.
-        </Text>
-        <Text>
-          It allows you to change the loading priority of scripts. For this
-          example we set the <Code>strategy</Code> prop to{' '}
-          <Link
-            href="https://nextjs.org/docs/basic-features/script#lazyonload"
-            target="_blank"
-          >
-            &quot;lazyOnload&quot;
-          </Link>{' '}
-          so that ads load during idle time and don&apos;t hurt the{' '}
-          <Link href="https://web.dev/interactive/" target="_blank">
-            TTI
-          </Link>
-          .
-        </Text>
+        
         <Text>
           We have a loading state for ads while they load While our ads are
           loading, we show a fallback state to reserve a space for them and
