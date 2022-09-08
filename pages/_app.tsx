@@ -23,7 +23,7 @@ function App({ Component, pageProps }: AppProps) {
           googletag.cmd.push(function() {
             googletag
                 .defineSlot(
-                    '/1028307/Dinamalar_Desktop_Mainhomepage_MTF_336x280', [300, 250], 'my-banner')
+                    '/6355419/Travel/Europe/France/Paris', [300, 250], 'my-banner')
                 .addService(googletag.pubads());
             googletag.enableServices();
           });
